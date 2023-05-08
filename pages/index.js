@@ -27,6 +27,7 @@ export default function Home({allPostsData}) {
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
+        <p>You may send me questions in my Feedback page here: <Link href="/feedback/fbform">Feedbacks</Link></p>
       </section>
 
       {/* Add this <section> tag below the existing <section> tag */}
