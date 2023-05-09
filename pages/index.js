@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import Comments from '../components/comment';
 
 //For Static Rendering, use getStaticProps. Use getServerSideProps to do server-side rendering
 export async function getStaticProps() {
@@ -44,6 +45,10 @@ export default function Home({allPostsData}) {
           </li>
           ))}
         </ul>
+      </section>
+      <section>
+        <h1>Comments</h1>
+        <Comments />
       </section>
     </Layout>
   );
