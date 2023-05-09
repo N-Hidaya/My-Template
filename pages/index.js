@@ -4,6 +4,8 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import Comments from '../components/comment';
+import Weather from '../components/weather';
 
 //For Static Rendering, use getStaticProps. Use getServerSideProps to do server-side rendering
 export async function getStaticProps() {
@@ -27,6 +29,9 @@ export default function Home({allPostsData}) {
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
+        <article>
+          <Weather/>
+        </article>
         <p>You may send me questions in my Feedback page here: <Link href="/feedback/fbform">Feedbacks</Link></p>
       </section>
 
@@ -44,6 +49,10 @@ export default function Home({allPostsData}) {
           </li>
           ))}
         </ul>
+      </section>
+      <section>
+        <h1>Comments</h1>
+        <Comments />
       </section>
     </Layout>
   );
