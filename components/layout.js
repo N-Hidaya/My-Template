@@ -3,13 +3,21 @@ import Image from 'next/image';
 import styles from './stylesheets/layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import { Grid, GridItem } from '@chakra-ui/react';
 
 const name = 'Daya';
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <Grid templateAreas={`"sidebar main"
+                          "sidebar footer"`}
+          
+         
+          gap='1'
+          color='blackAlpha.700'
+          fontWeight='bold'>
+      <GridItem pl='2' bg='pink.300' area={'sidebar'}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -58,12 +66,18 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+      </GridItem>
+      <GridItem pl='2' bg='green.300' area={'main'}>
+      
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>
         </div>
       )}
-    </div>
+        
+      </GridItem>
+      <GridItem pl='2' bg='blue.300' area={'footer'}>Footer</GridItem>
+    </Grid>
   );
 }
