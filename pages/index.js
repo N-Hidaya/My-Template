@@ -1,8 +1,7 @@
-import Head from 'next/head';
+'use client'
+import { Link, Box, Text, Heading, Card, CardHeader, CardBody, Stack, StackDivider} from '@chakra-ui/react'
 import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
-import Link from 'next/link';
 import Date from '../components/date';
 import Comments from '../components/comment';
 import Weather from '../components/weather';
@@ -20,40 +19,48 @@ export async function getStaticProps() {
 export default function Home({allPostsData}) {
   return (
     <Layout home>
-      <Head>
+      <Box as="head">
         <title>{siteTitle}</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <p>Hi, I'm Daya and I love to bake cookies</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-        <article>
+      </Box>
+      <Box as="section" p='20px'>
+        <Box as="article" p='20px' display='flex' justifyContent='center' >
           <Weather/>
-        </article>
-        <p>You may send me questions in my Feedback page here: <Link href="/feedback/fbform">Feedbacks</Link></p>
-      </section>
+        </Box>
+        <Box as='div' p='20px'>
+        <Heading>Welcome</Heading>
+        <Text fontFamily='sans-serif'>Hi, I'm Daya and welcome to my blogsite.</Text>
+        </Box>
+      </Box>
 
-      {/* Add this <section> tag below the existing <section> tag */}
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-            <Link href={`/posts/${id}`}>{title}</Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
-          ))}
-        </ul>
-      </section>
-      <section>
-        <h1>Comments</h1>
+      <Box as='div' p='20px'>
+      <Card>
+        <CardHeader>
+          <Heading>Blog</Heading>
+        </CardHeader>
+
+        <CardBody>
+          <Stack divider={<StackDivider />} spacing='4'>
+            
+            {allPostsData.map(({ id, date, title }) => (
+            <Box key={id}>
+              <Heading size='xs' textTransform='uppercase'>
+                <Link href={`/posts/${id}`} color='blue.500' _hover={{ color: 'blue.700' }}>{title}</Link>
+              </Heading>
+              <Text p='2' fontSize='sm'>
+                  <Date dateString={date} />
+              </Text>
+            </Box>
+            ))}
+            
+          </Stack>
+        </CardBody>
+      </Card>
+      </Box>
+      
+      <Box as="section" p='20px'>
+        <Heading as="h1">Comments</Heading>
         <Comments />
-      </section>
+      </Box>
     </Layout>
   );
 }

@@ -1,17 +1,18 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from './stylesheets/layout.module.css';
-import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
+
+'use client'
+import { Box, Grid, GridItem, Link, Avatar, Heading, AbsoluteCenter, Center, Button } from '@chakra-ui/react';
+import NonSSRWrapper from './noSSR';
 
 const name = 'Daya';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Daya and NextJS';
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
+    <NonSSRWrapper>
+    <Grid templateColumns='repeat(5, 1fr)'>
+      <GridItem colSpan={{base:'5', md:'5', lg:'1'}} p='20px' >
+      <Box as='head' suppressHydrationWarning={true}>
+        <Link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"
@@ -24,46 +25,67 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-      </Head>
-      <header className={styles.header}>
+      </Box>
+      <Box as="header" p='20px' >
+        
         {home ? (
           <>
-            <Image
-              priority
+          <Center p='4' color='white' axis='both'>
+            <Avatar
               src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt=""
+              size='2xl'
+              name='Daya'
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+          </Center>
+          <Center p='4' color='pink.700' axis='both'>
+            <Heading as='h1'>{name}</Heading>
+          </Center>
           </>
         ) : (
           <>
+          <Center p='4' axis='both'>
             <Link href="/">
-              <Image
-                priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={108}
-                width={108}
-                alt=""
+              <Avatar
+              src="/images/profile.jpg"
+              size='2xl'
+              name='Daya'
               />
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
+          </Center>
+          <Center p='4' axis='both'>
+            <Link href="/" color='pink.700'>
+              <Heading>
                 {name}
-              </Link>
-            </h2>
+              </Heading>
+            </Link>
+          </Center>
           </>
-        )}
-      </header>
-      <main>{children}</main>
+        )} 
+      </Box>
+      </GridItem>
+      <GridItem colSpan={{base:'5', md:'5', lg:'3'}}>
+      
+      <Box as='main' bgGradient='radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);' p='10px'>
+        <Box>{children}</Box>
+      </Box>
       {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
-        </div>
+        <>
+        <Box p='20px'>
+          <Link href="/"><Button colorScheme='pink'>← Back to home </Button></Link>
+        </Box>
+        </>
       )}
-    </div>
+        
+      </GridItem>
+      <GridItem colSpan={{base:'5', md:'5', lg:'1'}} p='20px'>
+        <Box as='article'  p='20px'>
+          <Center>
+          <Link href='../feedback/fbform'><Button colorScheme='pink'>Feedback</Button></Link>
+          </Center>
+        </Box>
+      </GridItem>
+    </Grid>
+    </NonSSRWrapper>
+
   );
 }
