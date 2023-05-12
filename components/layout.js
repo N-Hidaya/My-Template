@@ -1,6 +1,6 @@
 
 'use client'
-import { Box, Grid, GridItem, Link, Avatar, Heading, AbsoluteCenter, Center } from '@chakra-ui/react';
+import { Box, Grid, GridItem, Link, Avatar, Heading, AbsoluteCenter, Center, Button } from '@chakra-ui/react';
 import NonSSRWrapper from './noSSR';
 
 const name = 'Daya';
@@ -10,7 +10,7 @@ export default function Layout({ children, home }) {
   return (
     <NonSSRWrapper>
     <Grid templateColumns='repeat(5, 1fr)'>
-      <GridItem colSpan={{base:'5', md:'5', lg:'1'}} >
+      <GridItem colSpan={{base:'5', md:'5', lg:'1'}} p='20px' >
       <Box as='head' suppressHydrationWarning={true}>
         <Link rel="icon" href="/favicon.ico" />
         <meta
@@ -70,15 +70,19 @@ export default function Layout({ children, home }) {
       </Box>
       {!home && (
         <>
-        <Box>
-          <Link href="/">← Back to home</Link>
+        <Box p='20px'>
+          <Link href="/"><Button colorScheme='pink'>← Back to home </Button></Link>
         </Box>
         </>
       )}
         
       </GridItem>
-      <GridItem colSpan={{base:'5', md:'5', lg:'1'}}>
-        <Box as='article'>Ads Here...</Box>
+      <GridItem colSpan={{base:'5', md:'5', lg:'1'}} p='20px'>
+        <Box as='article'  p='20px'>
+          <Center>
+          <Link href='../feedback/fbform'><Button colorScheme='pink'>Feedback</Button></Link>
+          </Center>
+        </Box>
       </GridItem>
     </Grid>
     </NonSSRWrapper>

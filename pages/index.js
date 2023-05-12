@@ -28,7 +28,7 @@ export default function Home({allPostsData}) {
         </Box>
         <Box as='div' p='20px'>
         <Heading>Welcome</Heading>
-        <Text fontFamily='cursive'>Hi, I'm Daya and welcome to my blogsite.</Text>
+        <Text fontFamily='sans-serif'>Hi, I'm Daya and welcome to my blogsite.</Text>
         </Box>
       </Box>
 

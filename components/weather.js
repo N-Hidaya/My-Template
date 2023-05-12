@@ -27,7 +27,7 @@ export default function Weather() {
   }, [lat,long])
   
   return (
-    <Box as='div' boxShadow='2xl' width='400px'>
+    <Box as='div' boxShadow='2xl' width='400px' borderRadius='15px' p='20px'>
       {(typeof data.main != 'undefined') ? (
         <WeatherCard weatherData={data}/>
       ): (

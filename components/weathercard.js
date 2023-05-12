@@ -1,13 +1,12 @@
 import React from 'react';
-import s from './stylesheets/weather.module.css';
 import moment from 'moment';
-import { Box, Card, CardBody, Heading, Text, Image } from '@chakra-ui/react';
+import { Box, Heading, Text, Image } from '@chakra-ui/react';
 
 const WeatherCard = ({weatherData}) => (
   
-  <Card boxShadow='2xl'>
-    <CardBody alignItems='center'>
-        <Heading>{weatherData.name}</Heading>
+  <Box boxShadow='2xl' p='20px' borderRadius='15px'>
+    <Box alignItems='center'>
+        <Heading color='whiteAlpha.900'>{weatherData.name}</Heading>
         <Box as='div'>
             <Text>{moment().format('dddd')} | {moment().format('LL')}</Text>
         </Box>
@@ -21,8 +20,8 @@ const WeatherCard = ({weatherData}) => (
           <p >Description: {weatherData.weather[0].description}</p>
         </Text>
         
-    </CardBody>
-  </Card>
+    </Box>
+  </Box>
 
 )
 
