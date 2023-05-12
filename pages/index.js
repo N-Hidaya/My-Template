@@ -22,13 +22,17 @@ export default function Home({allPostsData}) {
       <Box as="head">
         <title>{siteTitle}</title>
       </Box>
-      <Box as="section">
-        <Box as="article">
+      <Box as="section" p='20px'>
+        <Box as="article" p='20px' display='flex' justifyContent='center' >
           <Weather/>
         </Box>
-        <Text>You may send me questions in my Feedback page here: <Link href="/feedback/fbform">Feedbacks</Link></Text>
+        <Box as='div' p='20px'>
+        <Heading>Welcome</Heading>
+        <Text fontFamily='cursive'>Hi, I'm Daya and welcome to my blogsite.</Text>
+        </Box>
       </Box>
 
+      <Box as='div' p='20px'>
       <Card>
         <CardHeader>
           <Heading>Blog</Heading>
@@ -51,8 +55,9 @@ export default function Home({allPostsData}) {
           </Stack>
         </CardBody>
       </Card>
+      </Box>
       
-      <Box as="section">
+      <Box as="section" p='20px'>
         <Heading as="h1">Comments</Heading>
         <Comments />
       </Box>

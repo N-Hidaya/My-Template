@@ -1,7 +1,6 @@
-import 'semantic-ui-css/semantic.min.css'
-import './stylesheets/weather.module.css';
 import React, { useEffect, useState } from "react";
 import WeatherCard from './weathercard';
+import { Box } from "@chakra-ui/react";
 
 
 export default function Weather() {
@@ -28,13 +27,13 @@ export default function Weather() {
   }, [lat,long])
   
   return (
-    <div className="Weather">
+    <Box as='div' boxShadow='2xl' width='400px'>
       {(typeof data.main != 'undefined') ? (
         <WeatherCard weatherData={data}/>
       ): (
         <div></div>
       )}
       
-    </div>
+    </Box>
   );
 }

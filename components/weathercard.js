@@ -1,33 +1,29 @@
 import React from 'react';
 import s from './stylesheets/weather.module.css';
-import { Card, CardDescription } from 'semantic-ui-react'
 import moment from 'moment';
-import Image from 'next/image';
+import { Box, Card, CardBody, Heading, Text, Image } from '@chakra-ui/react';
 
 const WeatherCard = ({weatherData}) => (
   
-  <div className={s.main}>
-    <Card.Content >
-        <Card.Header className={s.header}>{weatherData.name}</Card.Header>
-        <div>
-            <p className={s.day}>{moment().format('dddd')} | {moment().format('LL')}</p>
-        </div>
-        <CardDescription className={s.temp}>
+  <Card boxShadow='2xl'>
+    <CardBody alignItems='center'>
+        <Heading>{weatherData.name}</Heading>
+        <Box as='div'>
+            <Text>{moment().format('dddd')} | {moment().format('LL')}</Text>
+        </Box>
+        <Text>
         <Image  src={`http://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`}
-              width={100}
-              height={100}
-              alt="Picture of the weather"/>
+             boxSize='100px' alt='weatherIcon'/>
           <p >Temperature: {weatherData.main.temp}&deg;C</p>
           <p >Feels Like: {weatherData.main.feels_like}&deg;C</p>
-          <p className={s.fr}>Humidity: {weatherData.main.humidity}%</p>
-          <p className={s.fr}>Country: {weatherData.sys.country}</p>
-          <p className={s.fr}>Description: {weatherData.weather[0].description}</p>
-        </CardDescription>
+          <p >Humidity: {weatherData.main.humidity}%</p>
+          <p >Country: {weatherData.sys.country}</p>
+          <p >Description: {weatherData.weather[0].description}</p>
+        </Text>
         
-        
-        
-    </Card.Content>
-  </div>
+    </CardBody>
+  </Card>
+
 )
 
 export default WeatherCard;

@@ -9,8 +9,8 @@ export const siteTitle = 'Daya and NextJS';
 export default function Layout({ children, home }) {
   return (
     <NonSSRWrapper>
-    <Grid templateColumns='repeat(4, 1fr)'>
-      <GridItem colSpan={1} bgGradient='linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);'>
+    <Grid templateColumns='repeat(5, 1fr)'>
+      <GridItem colSpan={{base:'5', md:'5', lg:'1'}} >
       <Box as='head' suppressHydrationWarning={true}>
         <Link rel="icon" href="/favicon.ico" />
         <meta
@@ -63,9 +63,11 @@ export default function Layout({ children, home }) {
         )} 
       </Box>
       </GridItem>
-      <GridItem colSpan={2} bg='AppWorkspace'>
+      <GridItem colSpan={{base:'5', md:'5', lg:'3'}}>
       
-      <Box as='main' bgGradient='radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);' p='10px'>{children}</Box>
+      <Box as='main' bgGradient='radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);' p='10px'>
+        <Box>{children}</Box>
+      </Box>
       {!home && (
         <>
         <Box>
@@ -74,6 +76,9 @@ export default function Layout({ children, home }) {
         </>
       )}
         
+      </GridItem>
+      <GridItem colSpan={{base:'5', md:'5', lg:'1'}}>
+        <Box as='article'>Ads Here...</Box>
       </GridItem>
     </Grid>
     </NonSSRWrapper>
