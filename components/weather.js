@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import WeatherCard from './weathercard';
-import { Box } from "@chakra-ui/react";
 
 
 export default function Weather() {
@@ -27,13 +26,13 @@ export default function Weather() {
   }, [lat,long])
   
   return (
-    <Box as='div' boxShadow='2xl' width='400px' borderRadius='15px' p='20px'>
+    <div className="shadow-xl w-full border-radius-[15px] p-20" >
       {(typeof data.main != 'undefined') ? (
         <WeatherCard weatherData={data}/>
       ): (
         <div></div>
       )}
       
-    </Box>
+    </div>
   );
 }
