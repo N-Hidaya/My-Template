@@ -26,36 +26,36 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}>
+        <div className={shadow ? "fixed w-full h-25 shadow-xl z-[100] bg-[#352d2c]" : "fixed w-full h-25 z-[100] bg-[#402D29]"}>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
                 <Link href='/'>
                 <Image src="/../public/assets/logo.png" alt="logo" width='140' height='50' className="w-auto h-auto"/>
 
                 </Link>
-                <div>
-                    <ul className="hidden md:flex"> 
+                <div className="inset-y-0 right-5">
+                    <ul className="hidden md:flex right-0"> 
                         <Link href='/'>
-                            <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+                            <li className="ml-10 text-sm uppercase hover:border-b text-white">Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+                            <li className="ml-10 text-sm uppercase hover:border-b text-white">About</li>
                         </Link>
                         <Link href='/#services'>
-                            <li className="ml-10 text-sm uppercase hover:border-b">Services</li>
+                            <li className="ml-10 text-sm uppercase hover:border-b text-white">Services</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+                            <li className="ml-10 text-sm uppercase hover:border-b text-white">Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
+                            <li className="ml-10 text-sm uppercase hover:border-b text-white">Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
+                            <li className="ml-10 text-sm uppercase hover:border-b text-white">Contact</li>
                         </Link>
                         
                     </ul>
-                    <div onClick={handleNav} className="md:hidden">
-                        <AiOutlineMenu size={25}/>
+                    <div onClick={handleNav} className="md:hidden inset-y-0 right-5">
+                        <AiOutlineMenu size={25} color="white"/>
                     </div>
                 </div>
 
@@ -73,7 +73,7 @@ const Navbar = () => {
                                 </div>
                             </div>
                             <div className="border-b border-gray-300 my-4">
-                                <p className="w-[85%] md:w-[90%] py-4">Let's build something legendary together</p>
+                                <p className="w-[85%] md:w-[90%] py-4">Let's produce our ideas together</p>
                             </div>
                         </div>
                         <div className="py-4 flex flex-col">
@@ -99,19 +99,19 @@ const Navbar = () => {
                         
                             </ul>
                             <div className="pt-40">
-                                <p className="uppercase tracking-widest text-[#5651e5]">Let's Connect</p>
+                                <p className="uppercase tracking-widest text-white">Let's Connect</p>
                                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                        <AiOutlineMail />
+                                        <AiOutlineMail color='#68333c' />
                                     </div>
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                        <FaGithub />
+                                        <FaGithub color='#68333c' />
                                     </div>
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                        <FaInstagram />
+                                        <FaInstagram color='#68333c'/>
                                     </div>
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                        <RiContactsFill />
+                                        <RiContactsFill color='#68333c'/>
                                     </div>
                                 </div>
                             </div>
