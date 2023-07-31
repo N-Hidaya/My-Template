@@ -12,7 +12,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:bg-white">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center ">
                             <div className="m-auto">
-                                <Image src='/../public/assets/skills/html5.png' width='64' height='64' alt="/" />
+                                <Image src={'/assets/skills/html5.png'} width='64' height='64' alt="/" />
                             </div>
                             <div className="flex flex-col items-center justify-center ">
                                 <h3>HTML</h3>
@@ -23,7 +23,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:bg-white">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/skills/css.jpeg' width='64' height='64' alt="/" />
+                                <Image src={'/assets/skills/css.jpeg'} width='64' height='64' alt="/" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>CSS</h3>
@@ -34,7 +34,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:bg-white">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/skills/es6.jpeg' width='64' height='64' alt="/" />
+                                <Image src={'/assets/skills/es6.jpeg'} width='64' height='64' alt="/" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>Javascript ES6</h3>
@@ -45,7 +45,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:bg-white">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/skills/typescript.png' width='64' height='64' alt="/" />
+                                <Image src={'/assets/skills/typescript.png'} width='64' height='64' alt="/" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>Typescript</h3>
@@ -56,7 +56,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:bg-white">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/skills/reactjs.png' width='64' height='64' alt="/" />
+                                <Image src={'/assets/skills/reactjs.png'} width='64' height='64' alt="/" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>React JS</h3>
@@ -67,7 +67,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:bg-white">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/skills/flutter.png' width='64' height='64' alt="/" />
+                                <Image src={'/assets/skills/flutter.png'} width='64' height='64' alt="/" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>Flutter</h3>
@@ -78,7 +78,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:bg-white">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/skills/github.png' width='64' height='64' alt="/" />
+                                <Image src={'/assets/skills/github.png'} width='64' height='64' alt="/" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>Github</h3>
@@ -89,7 +89,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:bg-white">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/../public/assets/skills/wix.png' width='64' height='64' alt="/" />
+                                <Image src={'/assets/skills/wix.png'} width='64' height='64' alt="/" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>Wix</h3>
