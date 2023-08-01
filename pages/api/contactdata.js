@@ -1,4 +1,3 @@
-import Thanksctc from "../../components/Thanksctc";
 import { mailOptions, transporter } from "../../config/nodemailer"
 
 
