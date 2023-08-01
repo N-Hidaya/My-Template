@@ -6,10 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.0.8",
     "date-fns": "^2.30.0",
     "disqus-react": "^1.1.5",
     "dotenv": "^16.0.3",
-    "framer-motion": "^10.12.9",
     "gray-matter": "^4.0.3",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.43",
