@@ -22,7 +22,7 @@ const About = () => {
                     </p>
                     <p className="py-2 text-gray-600">Check out some of my latest projects.</p>
                 </div>
-                <div className="w-full h-auto m-auto shadow-xl shadow-white rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
+                <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 bg-white rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
                     <img className="rounded-xl " src="https://i.pinimg.com/originals/44/69/bf/4469bfc00266eab9cb1e955c13cc0640.jpg" alt="programming girl" />
                 </div>
             </div>

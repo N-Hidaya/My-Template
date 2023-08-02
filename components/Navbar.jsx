@@ -101,18 +101,18 @@ const Navbar = () => {
                             <div className="pt-40">
                                 <p className="uppercase tracking-widest text-white">Let's Connect</p>
                                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                        <AiOutlineMail color='#68333c' />
-                                    </div>
-                                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                        <FaGithub color='#68333c' />
-                                    </div>
-                                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                        <FaInstagram color='#68333c'/>
-                                    </div>
-                                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                        <RiContactsFill color='#68333c'/>
-                                    </div>
+                                <Link href='/#contact' className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                    <AiOutlineMail color='#68333c' />
+                                </Link>
+                                <Link href='https://github.com/N-Hidaya' className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                    <FaGithub color='#68333c' />
+                                </Link>
+                                <Link href='https://www.instagram.com/ai__daya/' className="rounded-full shadow-lg shadow-gray-400  p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                    <FaInstagram color='#68333c'/>
+                                </Link>
+                                <Link href='/#contact' className="rounded-full shadow-lg shadow-gray-400  p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                    <RiContactsFill color='#68333c'/>
+                                </Link>
                                 </div>
                             </div>
                         </div>

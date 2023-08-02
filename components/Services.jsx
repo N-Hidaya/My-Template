@@ -64,7 +64,7 @@ const Services = () => {
 
             </div>
 
-            <h2 className='py-4 text-[#402D29]'>Services</h2>
+            <h2 className='pt-10 pb-4 text-[#402D29]'>Services</h2>
             <div className='flex flex-col xl:flex-row justify-evenly '>
                 <Link className='flex flex-col md:flex-row md:max-w-xl w-full h-auto shadow-xl shadow-white rounded-xl lg:p-4 bg-gradient-to-r from-[#68333c] to-[#eba9a9] hover:scale-105 ease-in duration-300' href='https://www.fiverr.com/s2/761ea4f0a8'>
                 
