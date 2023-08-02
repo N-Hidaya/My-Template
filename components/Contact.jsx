@@ -150,12 +150,12 @@ const Contact = () => {
                     <Alert
                 open={success}
             
-                className="max-w-screen-md bg-green-600 p-4"
+                className="max-w-screen-md bg-green-200 p-4"
                 icon={<IconSuccess />}
                 onClose={() => setSuccess(false)}
               >
-                <Typography variant="h5" color="white">Success</Typography>
-                <Typography color="white" className="mt-2 font-normal p-2">
+                <Typography variant="h5" >Success</Typography>
+                <Typography className="mt-2 font-normal p-2">
                     Your message has been sent successfully :) Thank you for your enquiries!
                 </Typography>
                 </Alert>
