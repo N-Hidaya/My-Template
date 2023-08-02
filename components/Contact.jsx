@@ -91,7 +91,7 @@ const Contact = () => {
                     </div>
                     <div>
                         <h2 className='py-2 text-white drop-shadow-lg'>Daya</h2>
-                        <p>Front-End Developer</p>
+                        <p className='font-bold drop-shadow-lg shadow-white'>Front-End Developer</p>
                         <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's discuss.</p>
     
                     </div>
@@ -99,18 +99,18 @@ const Contact = () => {
                     <p className='uppercase pt-8 font-semibold'>Connect With Me</p>
                     <div className='flex items-center justify-between py-4'>
                         <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-                        <div className="rounded-full shadow-lg shadow-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <Link href='/#contact' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <AiOutlineMail color='#68333c' />
-                        </div>
-                        <div className="rounded-full shadow-lg shadow-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            </Link>
+                            <Link href='https://github.com/N-Hidaya' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <FaGithub color='#68333c' />
-                        </div>
-                        <div className="rounded-full shadow-lg shadow-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            </Link>
+                            <Link href='https://www.instagram.com/ai__daya/' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <FaInstagram color='#68333c'/>
-                        </div>
-                        <div className="rounded-full shadow-lg shadow-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            </Link>
+                            <Link href='/#contact' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <RiContactsFill color='#68333c'/>
-                        </div>
+                            </Link>
                         
                         </div>
                     </div>
