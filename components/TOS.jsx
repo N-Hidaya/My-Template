@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import {TbPointFilled} from 'react-icons/tb'
 
-function Tos() {
+function tos() {
   return (
     <div className='flex flex-col space-y-4 mx-auto px-4 py-6 items-center rounded-md md:w-10/12'>
               <h2 className='pt-4 text-[#402D29]'>Terms of Service</h2>
@@ -178,4 +178,4 @@ function Tos() {
   )
 }
 
-export default Tos
+export default tos
