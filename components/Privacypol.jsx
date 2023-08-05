@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
+import {TbPointFilled} from 'react-icons/tb'
 
 function Privacypol() {
   return (
