@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Tos from '../components/Tos'
+import Tos from '../components/tos'
 
 export const Amount = ({amount, setAmount, value}) => {
   return (
