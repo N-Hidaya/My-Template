@@ -32,8 +32,9 @@ const Services = () => {
                         </div>
                         <div className='flex flex-col py-2'>
                             <h2>Price</h2>
-                            <h3>USD $10,000</h3>
+                            <h3>USD $8,000</h3>
                             <label className='uppercase text-sm py-2'>This app is selling for a lucky business client! Will you be my business client?</label>
+                            <p>Only pay $500 first and get the app ready for you! Subsequent payment afterwards in full or monthly instalments!</p>
                         </div>
                         <div className='flex flex-col py-2'>
                             <h2>Description</h2>
@@ -116,7 +117,7 @@ const Services = () => {
 
                 <Link className='flex flex-col md:flex-row md:max-w-xl  w-full h-auto shadow-xl shadow-white rounded-xl lg:p-4 bg-gradient-to-r from-[#68333c] to-[#eba9a9] hover:scale-105 ease-in duration-300' href='https://www.fiverr.com/s2/b76a4f5ba2'>
                 
-                    <img className="object-cover w-full rounded-t-lg h-50 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/gigs/template2.jpeg" alt="Flutter Mobile Applications Development" />
+                    <img className="object-cover w-full rounded-t-lg h-50 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/gigs/mobile1.png" alt="Flutter Mobile Applications Development" />
 
                     <div className='p-2'>
                     <h5 className='mb-4 text-xl font-medium text-gray-200 p-2'>Develop Flutter Mobile Apps</h5>
