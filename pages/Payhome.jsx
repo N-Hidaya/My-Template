@@ -26,7 +26,7 @@ function Payhome() {
                   <Amount amount={amount} setAmount={setAmount} value={500}/>
                   <Amount amount={amount} setAmount={setAmount} value={8000}/>
                 </div>
-                <button>Paypal button</button>
+                <button>Pay</button>
             </div>
            
       
