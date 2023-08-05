@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import TOS from '../components/tos'
+import Tos from '../components/Tos'
 
 export const Amount = ({amount, setAmount, value}) => {
   return (
@@ -17,7 +17,7 @@ function Payhome() {
     <div id="payment" className='w-full'>
       <div className='mx-auto px-2 py-20'>
             <p className='text-xl tracking-widest mt-20 uppercase text-center text-white drop-shadow-lg'>Purchasement of Application Contract </p>
-            <TOS />
+            <Tos />
 
           
             <div className='flex flex-col space-y-4 mx-auto px-4 py-6 items-center rounded-md md:w-10/12'>
