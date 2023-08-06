@@ -1,5 +1,6 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import Privacypol from '../components/Privacypol'
+import PaypalCheckoutButton from '../components/payments/Paypal';
 
 export const Amount = ({amount, setAmount, value}) => {
   return (
@@ -11,7 +12,33 @@ export const Amount = ({amount, setAmount, value}) => {
 
 function Payhome() {
 
+  const product = {
+    description: "Hanguk4Ummah Android App - Downpayment",
+    price: 500
+  }
+
   const [amount, setAmount] = useState(10)
+  const [scriptLoaded, setScriptLoaded] = useState(false)
+
+  
+  const addPaypalScript = () => {
+    if(window.paypal){
+      setScriptLoaded(true)
+      return
+    }
+
+    const script = document.createElement("script")
+    script.src = "https://www.paypal.com/sdk/js?client-id=AV2TlY0JsDQqStiAWmxC89KAV1ZBPWZr-g3kz8W5ufLTomskEHs9cnvtgaANufgb6JUAOuZqhuAOXjIs";
+    script.type = "text/javascript";
+    script.async = true;
+    script.onload = () => setScriptLoaded(true);
+    document.body.appendChild(script);
+
+  }
+
+  useEffect(() => {
+    addPaypalScript();
+  }, []);
 
   return (
     <div id="payment" className='w-full'>
@@ -25,7 +52,9 @@ function Payhome() {
                   <Amount amount={amount} setAmount={setAmount} value={500}/>
                   <Amount amount={amount} setAmount={setAmount} value={8000}/>
                 </div>
-                <button>Pay</button>
+                <div className='paypal'>
+                  <PaypalCheckoutButton product={product} />
+                </div>
             </div>
            
       
@@ -36,3 +65,5 @@ function Payhome() {
 }
 
 export default Payhome
+
+ //{scriptLoaded ? (<PaypalCheckoutButton product={product} />) : (<span>loading...</span>) }
