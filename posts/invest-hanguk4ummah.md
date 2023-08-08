@@ -24,8 +24,8 @@ Hanguk4Ummah is not just another app – it's a solution born out of genuine con
 
 ## Ownership Details
 
-- **Affordable Investment:** Acquire ownership for an attractive listing price of $8000 USD, with the option to initiate ownership by paying just $500 USD upon signing the contract.
-- **Flexible Payment:** Enjoy the flexibility of choosing between full payment or convenient monthly installments for the remaining amount.
+- **Affordable Investment:** Acquire ownership for an attractive listing price of $8000 USD, with the option to initiate ownership by paying just $500 USD upon signing the contract. Price can be reduced depending on the results of the product!
+- **Flexible Payment:** Enjoy the flexibility of choosing between full payment or convenient monthly installments for the remaining amount. 
 - **Active Involvement:** Benefit from continuous involvement in the app's growth and development, while we handle the technicalities of publishing to the Google App Store.
 - **Marketing Support:** Leverage our expertise in advertising through popular platforms like Instagram and Discord, ensuring maximum visibility and user adoption.
 
