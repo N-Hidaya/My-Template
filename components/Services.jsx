@@ -124,7 +124,7 @@ const Services = () => {
                     <div className="flex items-baseline text-gray-900 dark:text-white">
                         <span className="text-xl font-normal text-gray-200 p-2">Starting at </span>
                         <span className="text-3xl font-semibold">$</span>
-                        <span className="text-5xl font-extrabold tracking-tight">1005</span>
+                        <span className="text-5xl font-extrabold tracking-tight">270</span>
                     </div>
                     <ul role="list" className="space-y-5 my-7">
                         <li className="flex space-x-3 items-center">

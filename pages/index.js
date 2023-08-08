@@ -1,6 +1,5 @@
 'use client'
 
-import { getSortedPostsData } from '../lib/posts';
 import Head from 'next/head';
 import Main from '../components/Main';
 import About from '../components/About';
@@ -9,16 +8,9 @@ import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Services from '../components/Services';
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-}
 
-export default function Home({allPostsData}) {
+
+export default function Home() {
   return (
     <div>
       <Head>
@@ -36,29 +28,3 @@ export default function Home({allPostsData}) {
   );
 }
 
-/*
-<Box as='div' p='20px'>
-      <Card>
-        <CardHeader>
-          <Heading>Blog</Heading>
-        </CardHeader>
-
-        <CardBody>
-          <Stack divider={<StackDivider />} spacing='4'>
-            
-            {allPostsData.map(({ id, date, title }) => (
-            <Box key={id}>
-              <Heading size='xs' textTransform='uppercase'>
-                <Link href={`/posts/${id}`} color='blue.500' _hover={{ color: 'blue.700' }}>{title}</Link>
-              </Heading>
-              <Text p='2' fontSize='sm'>
-                  <Date dateString={date} />
-              </Text>
-            </Box>
-            ))}
-            
-          </Stack>
-        </CardBody>
-      </Card>
-      </Box>
-*/
