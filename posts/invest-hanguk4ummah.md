@@ -31,3 +31,4 @@ Hanguk4Ummah is not just another app – it's a solution born out of genuine con
 
 ## Act Now
 This is your chance to empower the Muslim community in Korea while making a sound investment. Join us in shaping a better, more accessible future through Hanguk4Ummah. Contact us today to secure your ownership and be part of this meaningful journey. Together, we can make a difference.
+[Check the product here](/#services)

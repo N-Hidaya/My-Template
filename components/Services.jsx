@@ -24,6 +24,7 @@ const Services = () => {
                 </div>
 
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-white rounded-xl lg:p-4 hover:bg-slate-100'>
+                    
                     <div className='p-4'>
                         <div className='flex flex-col py-2'>
                             <h2>Hanguk4Ummah</h2>
@@ -58,9 +59,12 @@ const Services = () => {
                                 the growing Muslim community in Korea!</p>
                         </div>
                         <div className='flex flex-col py-2'>
-                            <Link href='/#contact'><button className='text-center rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer w-full hover:scale-105 ease-in duration-300'>Enquire now to buy!</button></Link>
+                            <Link href='/posts/invest-hanguk4ummah'><button className='text-center rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer w-full hover:scale-105 ease-in duration-300'>Find out more!</button></Link>
+                            <Link href='/#contact' className='underline font-bold text-center pt-4 text-blue-500'>Enquire now to buy!</Link>
                         </div>
                     </div>
+                    
+
                 </div>
 
             </div>
