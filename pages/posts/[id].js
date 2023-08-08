@@ -4,7 +4,6 @@ import Date from '../../components/date';
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/bloglayout'
-import { Button } from '@material-tailwind/react';
 import Comments from '../../components/comment';
 
 

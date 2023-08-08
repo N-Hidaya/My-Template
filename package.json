@@ -12,6 +12,7 @@
     "disqus-react": "^1.1.5",
     "dotenv": "^16.0.3",
     "gray-matter": "^4.0.3",
+    "markdown-to-jsx": "^7.3.2",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.43",
     "next": "latest",
