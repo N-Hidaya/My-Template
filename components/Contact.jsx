@@ -44,7 +44,7 @@ const Contact = () => {
             />
           </svg>
         );
-      }
+    }
 
     const onSubmit = async () => {
         setSuccess(true)
@@ -150,7 +150,7 @@ const Contact = () => {
                     <Alert
                 open={success}
             
-                className="max-w-screen-md bg-green-200 p-4"
+                className="max-w-screen-md bg-[#586d4f] p-4"
                 icon={<IconSuccess />}
                 onClose={() => setSuccess(false)}
               >
