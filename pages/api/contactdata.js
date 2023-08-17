@@ -12,7 +12,7 @@ const CONTACT_FIELDS = {
 const generateEmailContent = (data) => {
   const stringData = Object.entries(data).reduce(
     (str, [key, value] ) => 
-    str += `${CONTACT_FIELDS[key]} : \n${value}} \n \n`, "");
+    str += `${CONTACT_FIELDS[key]} : \n${value} \n \n`, "");
 
   const htmlData = Object.entries(data).reduce(
     (str, [key, val]) => 
@@ -56,6 +56,6 @@ const handler = async (req, res) => {
   }
     return res.status(400).json({message:"Bad request"})
 
-  }
+}
 
-  export default handler
+export default handler

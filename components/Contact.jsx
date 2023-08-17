@@ -6,6 +6,8 @@ import { RiContactsFill } from "react-icons/ri";
 import {HiOutlineChevronDoubleUp} from "react-icons/hi"
 import { sendContactForm } from '../lib/api';
 import { Alert, Typography } from "@material-tailwind/react";
+import { useRouter } from 'next/navigation';
+
 
 
 const initValues = { name: "", email: "", country: "", subject: "", message: ""}
@@ -19,6 +21,7 @@ const Contact = () => {
     const [success, setSuccess] = useState(false)
 
     const { values, isLoading, error } = state;
+    const router = useRouter()
 
 
     const handleChange = ({target}) => setState((prev) => ({
@@ -44,7 +47,7 @@ const Contact = () => {
             />
           </svg>
         );
-      }
+    }
 
     const onSubmit = async () => {
         setSuccess(true)
@@ -52,13 +55,12 @@ const Contact = () => {
             ...prev,
             isLoading: true,
         }));
+        router.push('/')
+
 
         try {
             await sendContactForm(values);
-            setTimeout(() => {
-                setSuccess(true)
-                setState(initState)
-            }, 10000);
+            setState(initState)
             
 
         } catch (error) {
@@ -150,7 +152,7 @@ const Contact = () => {
                     <Alert
                 open={success}
             
-                className="max-w-screen-md bg-green-200 p-4"
+                className="max-w-screen-md bg-[#586d4f] p-4"
                 icon={<IconSuccess />}
                 onClose={() => setSuccess(false)}
               >
