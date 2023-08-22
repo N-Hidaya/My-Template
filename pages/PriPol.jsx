@@ -2,18 +2,10 @@ import React from 'react'
 import Link from 'next/link'
 import {TbPointFilled} from 'react-icons/tb'
 
-function Privacypol() {
-  return (
-    <div className='flex flex-col space-y-4 mx-auto px-4 py-6 items-center rounded-md md:w-10/12'>
-              <h2 className='pt-4 text-[#402D29]'>Terms of Service</h2>
-              <p>Effective Date: 04/08/2023</p>
-              <div className='items-center overflow-auto h-[300px] justify-center'>
-                <h3 className='py-4 underline'>Introduction</h3>
-                <p>Welcome to <span className='font-bold text-white drop-shadow-lg'>AI Daya</span>! As you have just reached out regarding your interest in purchasing <span className='font-bold'>Hanguk4Ummah</span>, please pause, grab a cup of coffee and carefully read the following Terms of Service. It will take you approximately 20 minutes.</p>
-                <p>These Terms of Service govern your use of our web pages located at <Link href='https://www.ai-daya.com/' className='underline text-blue'>https://www.ai-daya.com/</Link> operated by <span className='font-bold text-white drop-shadow-lg'>Daya</span>.</p>
-              </div>
-
-              <h2 className='pt-4 text-[#402D29]'>Privacy Policy</h2>
+function PriPol() {
+    return (
+        <div className='flex flex-col space-y-4 mx-auto px-4 py-6 items-center rounded-md md:w-10/12'>
+            <h2 className='pt-4 text-[#402D29]'>Privacy Policy</h2>
               <p>Effective Date: 04/08/2023</p>
                 <div className='items-center overflow-scroll h-[300px] justify-center'>
                     <h3 className='py-4 underline'>Introduction</h3>
@@ -174,8 +166,8 @@ function Privacypol() {
                     <h3 className='py-4 underline'>Contact Us</h3>
                     <p>If you have any questions about this Privacy Policy, please contact us: <Link href='/#contact' className='underline'>Contact</Link></p>
                 </div>
-    </div>
-  )
+        </div>
+    )
 }
 
-export default Privacypol
+export default PriPol
