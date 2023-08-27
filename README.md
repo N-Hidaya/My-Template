@@ -7,6 +7,9 @@ Working on a blog site which includes components such as:
 - Social Media Links
 - Services section
 - Blog posts
+- Google Analytics
+- Terms of Use
+- Privacy Policy
 
 CSS Library: TailwindCSS
 Framework: ReactJS, NextJS
