@@ -4,10 +4,10 @@ import {TbPointFilled} from 'react-icons/tb'
 
 function PriPol() {
     return (
-        <div className='flex flex-col space-y-4 mx-auto px-4 py-6 items-center rounded-md md:w-10/12'>
-            <h2 className='pt-4 text-[#402D29]'>Privacy Policy</h2>
+        <div className='flex flex-col h-full space-y-4 mx-auto px-4 py-6 items-center rounded-md md:w-10/12'>
+            <h2 className='pt-4 mt-20 text-[#402D29]'>Privacy Policy</h2>
               <p>Effective Date: 04/08/2023</p>
-                <div className='items-center overflow-scroll h-[300px] justify-center'>
+                <div className='items-center h-full justify-center'>
                     <h3 className='py-4 underline'>Introduction</h3>
                     <p>Our Privacy Policy governs your visit to <Link href='https://www.ai-daya.com/' className='underline text-blue'>https://www.ai-daya.com/</Link> and <span className='font-bold text-white drop-shadow-lg'>AI Daya</span> website, and explains how we collect, safeguard and disclose information that results from your use of our Service.</p>
                     <p>We use your data to provide and improve Service. By using Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</p>
@@ -80,7 +80,7 @@ function PriPol() {
                     <h3 className='py-4 underline'>Your Data Protection Rights Under General Data Protection Regulation (GDPR)</h3>
                     <p>If you are a resident of the European Union (EU) and European Economic Area (EEA), you have certain data protection rights, covered by GDPR. – See more at <Link href='https://eur-lex.europa.eu/eli/reg/2016/679/oj' className='underline'>https://eur-lex.europa.eu/eli/reg/2016/679/oj</Link></p>
                     <p>We aim to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.</p>
-                    <p>If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please <Link href='/#contact' className='underline font-bold'>contact us</Link></p>
+                    <p>If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please <Link href='https://www.ai-daya.com/#contact' className='underline font-bold'>contact us</Link></p>
                     <p>In certain circumstances, you have the following data protection rights:</p>
                     <p className='flex flex-row'><TbPointFilled className='self-center'/>the right to access, update or to delete the information we have on you;</p>
                     <p className='flex flex-row'><TbPointFilled className='self-center'/>the right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete;</p>
@@ -98,7 +98,7 @@ function PriPol() {
                     <p className='flex flex-row'><TbPointFilled className='self-center'/>users can visit our site anonymously;</p>
                     <p className='flex flex-row'><TbPointFilled className='self-center'/>our Privacy Policy link includes the word “Privacy”, and can easily be found on the page specified above on the home page of our website;</p>
                     <p className='flex flex-row'><TbPointFilled className='self-center'/>users will be notified of any privacy policy changes on our Privacy Policy Page;</p>
-                    <p className='flex flex-row'><TbPointFilled className='self-center'/>users are able to change their personal information by <Link href='/#contact' className='underline'>contacting us</Link></p>
+                    <p className='flex flex-row'><TbPointFilled className='self-center'/>users are able to change their personal information by <Link href='https://www.ai-daya.com/#contact' className='underline'>contacting us</Link></p>
                     <p>Our Policy on “Do Not Track” Signals:</p>
                     <p>We honor Do Not Track signals and do not track, plant cookies, or use advertising when a Do Not Track browser mechanism is in place. Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.</p>
                     <p>You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser.</p>
@@ -117,7 +117,7 @@ function PriPol() {
                     <p><span className='font-bold'>To stop selling your personal information. </span>We don't sell or rent your personal information to any third parties for any purpose. You are the only owner of your Personal Data and can request disclosure or deletion at any time.</p>
                     <p>Please note, if you ask us to delete or stop selling your data, it may impact your experience with us, and you may not be able to participate in certain programs or membership services which require the usage of your personal information to function. But in no circumstances, we will discriminate against you for exercising your rights.</p>
                     <p>To exercise your California data protection rights described above, please send your request(s) by one of the following means:</p>   
-                    <p>By contact <Link href='/#contact' className='underline'>HERE</Link></p>
+                    <p>By contact <Link href='https://www.ai-daya.com/#contact' className='underline'>HERE</Link></p>
                     <p>Your data protection rights, described above, are covered by the CCPA, short for the California Consumer Privacy Act. To find out more, visit the official California Legislative Information website. The CCPA took effect on 01/01/2020.</p>
                     <h3 className='py-4 underline'>Service Providers</h3>
                     <p>We may employ third party companies and individuals to facilitate our Service (“Service Providers”), provide Service on our behalf, perform Service-related services or assist us in analysing how our Service is used.</p>
@@ -164,7 +164,7 @@ function PriPol() {
                     <p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update “effective date” at the top of this Privacy Policy.</p>
                     <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
                     <h3 className='py-4 underline'>Contact Us</h3>
-                    <p>If you have any questions about this Privacy Policy, please contact us: <Link href='/#contact' className='underline'>Contact</Link></p>
+                    <p>If you have any questions about this Privacy Policy, please contact us: <Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link></p>
                 </div>
         </div>
     )
