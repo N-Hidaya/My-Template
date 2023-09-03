@@ -18,7 +18,7 @@ export default function Blog({allPostsData}) {
         <Layout>
         <section className='p-2 text-center'>
             <h2 className="py-4 text-[#402D29]">Daya's Blog Posts</h2>
-            <ul className='list-outside grid md:grid-cols-2 lg:grid-cols-2 gap-8 px-5'>
+            <ul className='list-outside grid md:grid-cols-3 lg:grid-cols-3 gap-8 px-5'>
             {allPostsData.map(({ id, date, title }) => (
                 <li className='list-item p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-white' key={id}>
                     <Link href={`/posts/${id}`} className='text-lg font-bold'>{title}</Link>
