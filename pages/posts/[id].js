@@ -35,7 +35,7 @@ export default function Post({ postData }) {
         <h1 className='text-2xl text-[#402D29] text-center'>{postData.title}</h1>
         
         <div>
-            <p className='pb-4 text-center'>
+            <p className='pb-4 text-center '>
             <Date dateString={postData.date} />
             </p>
         </div>
@@ -44,7 +44,7 @@ export default function Post({ postData }) {
           <div className='px-10 py-4' dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
         
-        <Link href='/Blog' className='px-10 py-5'><button className=' text-center rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>Back to Blog Posts</button></Link>
+        <Link href='/Blog' className='px-10 py-5 my-2'><button className=' text-center rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>Back to Blog Posts</button></Link>
         <Comments/>
 
         </div>
