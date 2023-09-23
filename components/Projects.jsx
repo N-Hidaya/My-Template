@@ -2,6 +2,7 @@ import React from 'react'
 import ytomp3 from '../public/assets/projects/portfolio3.png'
 import ProjectItem from './ProjectItem'
 import ko4ummah from '../public/assets/projects/portfolio4.png'
+import h4u from '../public/assets/projects/h4u.jpg'
 
 
 const Projects = () => {
@@ -13,6 +14,7 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
             <ProjectItem title='Youtube to MP3 converter' bgimg={ytomp3} pjurl='/property' type='NextJS Project'/>
             <ProjectItem title='Hanguk4Ummah Web Version' bgimg={ko4ummah} pjurl='https://www.yt2music.com/' type='Gatsby Project'/>
+            <ProjectItem title='Hanguk4Ummah Mobile App' bgimg={h4u} pjurl='/Hanguk4Ummah' type='Flutter Project'/>
 
 
         </div>
