@@ -30,9 +30,7 @@ export default function Blog({allPostsData}) {
             ))}
             </ul>
         </section>
-        <div className='px-10 py-5'>
-        <Comments />
-        </div>
+       
         </Layout>
         
     )
