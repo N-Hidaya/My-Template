@@ -1,39 +1,38 @@
 ---
-title: 'Subjects Learned During My University Years: Computer Science Course'
+title: 'Exploring My University Journey: Key Computer Science Subjects'
 date: '2023-10-08'
 ---
 
-I majored in Computer Science at the during my Univeristy Degree studies and so I want to share some things that were covered during my course of study.
+I pursued a major in Computer Science during my University Degree studies, and I'm excited to share some insights into what was covered throughout my academic journey.
 
 ## 1. Programming Languages
-Recently, Python has been the famous programming language for Data Science and Machine Learning. It is considered the easiest programming language to learn with it's simple syntax and readability. Therefore, my university course thought us Python as the first programming language. It is true that Python might be the easiest to  learn, but Data Science is hard. 
+In recent years, Python has emerged as the dominant programming language in the realms of Data Science and Machine Learning. Renowned for its simplicity and readability due to its straightforward syntax, Python was the first programming language introduced in my university course. While Python may be regarded as one of the easiest languages to learn, it's essential to acknowledge that mastering Data Science remains a challenging endeavor.
 
-## 2. Using Python for projects
-We also had projects to complete both in group and individually. The projects were based on Python and we had to use Python libraries such as Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Tensorflow, Keras, etc. 
-As for group projects, it basically is technical writing and presentation. We had to write a report and present it to the class.
-Then, for individual projects, we had to develop a data-analytics application using Python. The application is supposed to detect number of Tweets and comments, likes from Twitter and form a graph. It is kind of like Google Analytics Web Application. I developed the application using Flask. So it involves using other programming languages such as HTML, CSS, Javascript, etc.
-It is not easy at all as we had to do in a limited time. But it was a good experience.
+## 2. Leveraging Python for Projects
+Our coursework included a variety of projects, both collaborative and individual. These projects were centered around Python and required the utilization of Python libraries such as Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Tensorflow, Keras, and more. Collaborative projects primarily focused on technical documentation and presentation, necessitating the creation of detailed reports and class presentations.
 
-## 3. Other useful subjects in Computer Science
-Other than programming languages, we also had to learn about other subjects such as:
+Individual projects involved the development of data analytics applications using Python. One notable project involved building an application to track the number of Tweets and comments, as well as likes on Twitter, and visualizing the data in the form of graphs—a concept reminiscent of Google Analytics for web applications. I personally developed this application using Flask, which involved incorporating other programming languages like HTML, CSS, and JavaScript. These projects were both challenging and rewarding, demanding efficient time management.
+
+## 3. Diverse Topics in Computer Science
+Beyond programming languages, our curriculum encompassed a wide array of subjects within the field of Computer Science, including:
+
 - Data Structures and Algorithms
-- Object Oriented Programming
+- Object-Oriented Programming
 - Computer Architecture
 - Operating Systems
 - Database Management Systems
 - Computer Networks
 - Network Security
-- Business Analysis 
+- Business Analysis
 - Data Programming
 
-and the list goes on...
+This list is by no means exhaustive, underscoring the comprehensive nature of a Computer Science degree. The pursuit of this degree entails substantial dedication, hard work, and occasional sleepless nights, but the knowledge gained is undoubtedly invaluable.
 
-So if you really want to get a degree in Computer Science, be ready for a lot of hard work and sleepless nights. But it is worth it.
+## 4. Advice for Aspiring Computer Scientists
+For those currently in high school with aspirations of pursuing Computer Science at the university level, I encourage you to wholeheartedly pursue your dream and enroll in a Computer Science program.
 
-## 4. My advice
-If you are just in high school and wanting to aim for computer science course in University, there's no issue to follow that dream and get into the computer science course. 
+However, if you're a working adult with a degree in another field but are contemplating a career change to Computer Science, I recommend considering a short introductory course in Computer Science. The rigor of a university-level Computer Science program can be quite demanding, and it's prudent to test the waters before committing fully. Starting with a short course allows you to gauge your aptitude and interest. If you find that you can manage the coursework and thrive, you can then confidently embark on the journey towards a degree in Computer Science. Alternatively, even if you decide against pursuing a degree, the knowledge and skills acquired from the short course can still open doors to career opportunities in the field.
 
-However if you are a working adult and had a degree in another field but you want to change your career to computer science, I would suggest you to take a short course in computer science first. This is because, the computer science course in University is very intense and you might not be able to cope with it. So it is better to take a short course first to see if you can handle it. If you can, then you can go for the degree course. If you can't, then you can still use the knowledge you gained from the short course to apply for a job in the computer science field.
+Today, numerous online Computer Science courses are available, offering flexibility and accessibility. Many companies even recognize certificates from online courses, provided you meet the necessary skill and qualification criteria.
 
-These days there are a lot of online computer science courses that you can take. So it is not a problem to take a short course. Some companies even accept people with certificates from online courses, as long as you meet the skills and requirements.
-
+So, whether you're a high school student or a working professional, the path to Computer Science is within reach, and your commitment to learning will undoubtedly pay off.
