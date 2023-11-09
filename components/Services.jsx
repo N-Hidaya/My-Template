@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import ProjectItem from './ProjectItem'
+import donateImg from '../public/assets/blog/donationcover.jpeg'
+
 //import h4uvid from '../public/assets/services/hanguk4ummah.mp4'
 
 const Services = () => {
@@ -8,6 +11,9 @@ const Services = () => {
     <div id='services' className='w-full'>
          <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-white drop-shadow-lg'>Services</p>
+
+            <h2 className='pt-10 pb-4 text-[#402D29]'>Featured</h2>
+            <ProjectItem title='Donate to Support Palestine and Needy Families' bgimg={donateImg} pjurl='/posts/donate' type='Donation Service'/>
             
 
             <h2 className='pt-10 pb-4 text-[#402D29]'>My Gigs</h2>
