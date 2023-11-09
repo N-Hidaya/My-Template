@@ -13,7 +13,7 @@ const Services = () => {
             <p className='text-xl tracking-widest uppercase text-white drop-shadow-lg'>Services</p>
 
             <h2 className='pt-10 pb-4 text-[#402D29]'>Featured</h2>
-            <ProjectItem title='Help the poor and Palestine' bgimg={donateImg} pjurl='/posts/donate' type='Donation Service'/>
+            <ProjectItem title='Donate to Support Palestine and Needy Families' bgimg={donateImg} pjurl='/posts/donate' type='Donation Service'/>
             
 
             <h2 className='pt-10 pb-4 text-[#402D29]'>My Gigs</h2>

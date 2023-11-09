@@ -5,13 +5,15 @@ date: '2023-11-09'
 
 Welcome, compassionate individuals!
 
-We've established this platform with a singular purpose – to extend a helping hand to those in dire need, including the suffering people of Palestine. In these challenging times, your support can make a significant difference.
+We've established this platform and decided to extend a helping hand to those in dire need, including the suffering people of Palestine. In these challenging times, your support can make a significant difference.
 
 ---
 
 **A Glimpse of the Palestinian Crisis**
 
 The people of Palestine are enduring a severe crisis, a result of ongoing genocide involving the Israel Defense Forces. The impact is heart-wrenching, with thousands of Palestinians facing mental anguish and physical injuries. Too many lives have been lost, and the survivors need our assistance.
+
+![Palestinian boys](/assets/blog/palestineboys.jpg)
 
 ---
 
@@ -25,6 +27,9 @@ Your generous contributions are channeled to reputable organizations that specia
 4. **Necessities**: Essentials for daily living.
 
 But our mission extends beyond the Palestinian crisis. We're also dedicated to assisting individuals and families who find themselves in financial turmoil, struggling to make ends meet.
+
+![Donation group](/assets/blog/syriadonate.jpg)
+
 
 ---
 

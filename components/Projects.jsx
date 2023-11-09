@@ -12,9 +12,9 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase text-white drop-shadow-lg'>Projects</p>
         <h2 className='py-4 text-[#402D29]'>What I've Created</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-            <ProjectItem title='Youtube to MP3 converter' bgimg={ytomp3} pjurl='/property' type='NextJS Project'/>
-            <ProjectItem title='Hanguk4Ummah Web Version' bgimg={ko4ummah} pjurl='https://www.yt2music.com/' type='Gatsby Project'/>
-            <ProjectItem title='Hanguk4Ummah Mobile App' bgimg={h4u} pjurl='/Hanguk4Ummah' type='Flutter Project'/>
+            <ProjectItem title='Youtube to MP3 converter' bgimg={ytomp3} pjurl='https://www.yt2music.com/' type='NextJS Project'/>
+            <ProjectItem title='Hanguk4Ummah Web Version' bgimg={ko4ummah} pjurl='https://master--cheerful-cendol-ed58ed.netlify.app/' type='Gatsby Project'/>
+            <ProjectItem title='Hanguk4Ummah Mobile App' bgimg={h4u} pjurl='/posts/Hanguk4Ummah' type='Flutter Project'/>
 
 
         </div>
