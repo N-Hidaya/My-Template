@@ -12,10 +12,6 @@ const Services = () => {
          <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-white drop-shadow-lg'>Services</p>
 
-            <h2 className='pt-10 pb-4 text-[#402D29]'>Featured</h2>
-            <ProjectItem title='Donate to Support Palestine and Needy Families' bgimg={donateImg} pjurl='/posts/donate' type='Donation Service'/>
-            
-
             <h2 className='pt-10 pb-4 text-[#402D29]'>My Gigs</h2>
             <div className='flex flex-col xl:flex-row justify-evenly '>
                 <Link className='flex flex-col md:flex-row md:max-w-xl w-full h-auto shadow-xl shadow-white rounded-xl lg:p-4 bg-gradient-to-r from-[#68333c] to-[#eba9a9] hover:scale-105 ease-in duration-300' href='https://www.fiverr.com/s2/761ea4f0a8'>
