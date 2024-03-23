@@ -1,35 +1,19 @@
-import Link from 'next/link';
 import Layout from '../components/bloglayout';
-import { getSortedPostsData } from '../lib/posts';
-import Date from '../components/date';
-import Comments from '../components/comment';
+import {allBlogs} from "contentlayer/generated";
+import BlogDesign from '../components/BlogDesign';
+import FeaturedPosts from '../components/FeaturedPosts';
+import RecentPosts from '../components/RecentPosts';
 
-export async function getStaticProps() {
-    const allPostsData = getSortedPostsData();
-    return {
-      props: {
-        allPostsData,
-      },
-    };
-}
 
-export default function Blog({allPostsData}) {
+export default function Blog() {
+  console.log(allBlogs);
     return (
         <Layout>
-        <section className='p-2 text-center'>
-            <h2 className="py-4 text-[#402D29]">Daya's Blog Posts</h2>
-            <ul className='list-outside grid md:grid-cols-3 lg:grid-cols-3 gap-8 px-5'>
-            {allPostsData.map(({ id, date, title }) => (
-                <li className='list-item p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-white' key={id}>
-                    <Link href={`/posts/${id}`} className='text-lg font-bold'>{title}</Link>
-                    <br />
-                    <small className='font-light'>
-                        <Date dateString={date} />
-                    </small>
-                </li>
-            ))}
-            </ul>
-        </section>
+        <main className='flex flex-col items-center justify-center'>
+          <BlogDesign blogs={allBlogs}/>
+          <FeaturedPosts blogs={allBlogs} />
+          <RecentPosts blogs={allBlogs} />
+        </main>
        
         </Layout>
         
@@ -37,6 +21,7 @@ export default function Blog({allPostsData}) {
 }
 
   /*
+  <ScreenThree blog={blog} />
 <Box as='div' p='20px'>
       <Card>
         <CardHeader>
