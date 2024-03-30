@@ -5,9 +5,6 @@ import Tag from "../../../components/elements/Tag"
 import Image from 'next/image'
 import BlogDetails from '../../../components/BlogScreens/BlogDetails'
 import RenderMdx from '../../../components/BlogScreens/RenderMdx'
-import Layout from '../../../components/bloglayout'
-import { PayPalScriptProvider } from '@paypal/react-paypal-js'
-
 
 
 
@@ -17,7 +14,7 @@ export default function BlogPage({ params }) {
     console.log(params)
     const blog = allBlogs.find((blog) => blog._raw.flattenedPath === params.slug)
 
-    return  <article>
+    return  <article className='pb-40'>
         <div className='mb-8 text-center relative w-full h-[70vh] bg-black'>
             <div className='w-full z-10 flex flex-col items-center justify-center absolute top-1/2 left-1/2 
             -translate-x-1/2 -translate-y-1/2'>

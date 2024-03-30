@@ -10,7 +10,7 @@ const BlogDesign = ({blogs}) => {
     const blog = sortedBlogs[0];
 
   return (
-    <div className='w-full h-full inline-block pb-20'>
+    <div className='w-full h-full inline-block  pb-20'>
 
         <article className='flex flex-col items-start justify-end mx-10 relative h-[85vh]'>
             <div className='absolute top-0 left-0 bottom-0 right-0 h-full 

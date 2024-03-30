@@ -1,8 +1,9 @@
+'use client'
+
 import { AiFillHeart } from 'react-icons/ai'
 
 export default function Hanguk4Ummah() {
-    return (
-        <div className='w-full h-full py-10 px-10'>
+    return <article className='w-full h-full py-10 px-10'>
             <h2 className="py-4 text-[#402D29]">Hanguk4Ummah</h2>
 
             <div className='grid lg:grid-cols-5 gap-8'>
@@ -48,7 +49,7 @@ export default function Hanguk4Ummah() {
                 </div>
 
             </div>
-        </div>
-    )
+        </article>
+    
 }
 

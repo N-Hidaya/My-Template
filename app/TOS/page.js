@@ -1,10 +1,11 @@
+'use client'
+
 import React from 'react'
 import Link from 'next/link'
 import {TbPointFilled} from 'react-icons/tb'
 
-function TOS() {
-    return (
-        <div className='flex flex-col h-full space-y-4 mx-auto px-4 py-6 items-center rounded-md md:w-10/12'>
+export default function TOS() {
+    return <article className='flex flex-col h-full  mx-auto px-4  items-center rounded-md md:w-10/12'>
             <h2 className='pt-4 mt-20 text-[#402D29]'>Terms of Service</h2>
               <p>Effective Date: 04/08/2023</p>
                 <div className='items-center h-full justify-center'>
@@ -13,7 +14,7 @@ function TOS() {
                     <p>These Terms of Service (“Terms”, “Terms of Service”) govern your use of our web pages located at <Link href='https://www.ai-daya.com/' className='underline text-blue'>https://www.ai-daya.com/</Link> operated by <span className='font-bold text-white drop-shadow-lg'>AI Daya</span>.</p>
                     <p>Our Privacy Policy also governs your use of our Service and explains how we collect, safeguard and disclose information that results from your use of our web pages. Please read it here <Link href='https://www.ai-daya.com/PriPol' className='underline text-blue'>https://www.ai-daya.com/PriPol</Link>.</p>
                     <p>Your agreement with us includes these Terms and our Privacy Policy <span className='font-bold'>(“Agreements”)</span>. You acknowledge that you have read and understood Agreements, and agree to be bound of them.</p>
-                    <p>If you do not agree with (or cannot comply with) Agreements, then you may not use the Service, but please let us know by contacting us here: <Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link> so we can try to find a solution. These Terms apply to all visitors, users and others who wish to access or use Service.</p>
+                    <p>If you do not agree with (or cannot comply with) Agreements, then you may not use the Service, but please let us know by contacting us here: <Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link> or Email at <span className='underline text-blue'>hidaya96daya@gmail.com</span> so we can try to find a solution. These Terms apply to all visitors, users and others who wish to access or use Service.</p>
                     <p>Thank you for being responsible.</p>
                     <h3 className='py-4 underline'>Communications</h3>
                     <p>By creating an Account on our Service, you agree to subscribe to newsletters, marketing or promotional materials and other information we may send. However, you may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or by emailing at.</p>
@@ -70,7 +71,7 @@ function TOS() {
                     <p>Service and its original content (excluding Content provided by users), features and functionality are and will remain the exclusive property of AI Daya and its licensors. Service is protected by copyright, trademark, and other laws of the United States and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of AI Daya.</p>
                     <h3 className='py-4 underline'>Copyright Policy</h3>
                     <p>We respect the intellectual property rights of others. It is our policy to respond to any claim that Content posted on Service infringes on the copyright or other intellectual property rights <span className='font-bold'>(“Infringement”)</span> of any person or entity.</p>
-                    <p>If you are a copyright owner, or authorized on behalf of one, and you believe that the copyrighted work has been copied in a way that constitutes copyright infringement, please submit your claim here: <Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link>, with the subject line: “Copyright Infringement” and include in your claim a detailed description of the alleged Infringement as detailed below, under “DMCA Notice and Procedure for Copyright Infringement Claims”</p>
+                    <p>If you are a copyright owner, or authorized on behalf of one, and you believe that the copyrighted work has been copied in a way that constitutes copyright infringement, please submit your claim here: <Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link>  or Email at <span className='underline text-blue'>hidaya96daya@gmail.com</span>, with the subject line: “Copyright Infringement” and include in your claim a detailed description of the alleged Infringement as detailed below, under “DMCA Notice and Procedure for Copyright Infringement Claims”</p>
                     <p>You may be held accountable for damages (including costs and attorneys' fees) for misrepresentation or bad-faith claims on the infringement of any Content found on and/or through Service on your copyright.</p>
                     <h3 className='py-4 underline'>DMCA Notice and Procedure for Copyright Infringement Claims</h3>
                     <p>You may submit a notification pursuant to the Digital Millennium Copyright Act (DMCA) by providing our Copyright Agent with the following information in writing (see 17 U.S.C 512(c)(3) for further detail):</p>
@@ -80,9 +81,9 @@ function TOS() {
                     <p className='flex flex-row'><TbPointFilled className='self-center' /> <span>your address, telephone number, and email address;</span></p>
                     <p className='flex flex-row'><TbPointFilled className='self-center' /> <span>a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;</span></p>
                     <p className='flex flex-row'><TbPointFilled className='self-center' /> <span>a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.</span></p>
-                    <p>You can contact our Copyright Agent via <Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link></p>
+                    <p>You can contact our Copyright Agent via <Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link>  or Email at <span className='underline text-blue'>hidaya96daya@gmail.com</span></p>
                     <h3 className='py-4 underline'>Error Reporting and Feedback</h3>
-                    <p>You may provide us either directly at <Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link> or via third party sites and tools with information and feedback concerning errors, suggestions for improvements, ideas, problems, complaints, and other matters related to our Service <span className='font-bold'>(“Feedback”)</span>.</p>
+                    <p>You may provide us either directly at <Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link>  or Email at <span className='underline text-blue'>hidaya96daya@gmail.com</span> or via third party sites and tools with information and feedback concerning errors, suggestions for improvements, ideas, problems, complaints, and other matters related to our Service <span className='font-bold'>(“Feedback”)</span>.</p>
                     <p>You acknowledge and agree that:</p>
                     <p className='flex flex-row'><TbPointFilled className='self-center' /> <span>(i) you shall not retain, acquire or assert any intellectual property right or other right, title or interest in or to the Feedback; </span></p>
                     <p className='flex flex-row'><TbPointFilled className='self-center' /> <span>(ii) Company may have development ideas similar to the Feedback; </span></p>
@@ -125,14 +126,13 @@ function TOS() {
                     <p>BY USING SERVICE OR OTHER SERVICES PROVIDED BY US, YOU ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS OF SERVICE AND AGREE TO BE BOUND BY THEM.</p>
                     <h3 className='py-4 underline'>Contact Us</h3>
                     <p>Please send your feedback, comments, requests for technical support:</p>
-                    <p><Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link></p>
+                    <p><Link href='https://www.ai-daya.com/#contact' className='underline'>Contact</Link>  or Email at <span className='underline text-blue'>hidaya96daya@gmail.com</span></p>
 
 
 
 
                 </div>
-        </div>
-    )
+        </article>
+    
 }
 
-export default TOS
