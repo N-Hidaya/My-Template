@@ -1,22 +1,27 @@
+'use client'
+
 import Layout from '../../components/bloglayout';
 import {allBlogs} from "contentlayer/generated";
 import BlogDesign from '../../components/BlogDesign';
 import FeaturedPosts from '../../components/FeaturedPosts';
 import RecentPosts from '../../components/RecentPosts';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
+import { PayPalScriptProvider } from '@paypal/react-paypal-js'
+
 
 
 export default function Blog() {
-    return (
-        <Layout>
-        <main className='flex flex-col items-center justify-center'>
+    return <main className='flex flex-col items-center justify-center pt-20'>
           <BlogDesign blogs={allBlogs}/>
           <FeaturedPosts blogs={allBlogs} />
           <RecentPosts blogs={allBlogs} />
         </main>
        
-        </Layout>
+       
+
         
-    )
+    
 }
 
   /*

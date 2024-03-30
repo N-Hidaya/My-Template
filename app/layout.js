@@ -22,7 +22,7 @@ export default function App({children}) {
             });
         `}
         </Script>
-        <div className='p-10'>
+        <div className='pt-35'>
         {children}
 
         </div>
