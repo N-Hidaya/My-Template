@@ -3,12 +3,20 @@ import Tag from "../../../components/elements/Tag"
 import Image from 'next/image'
 import BlogDetails from '../../../components/BlogScreens/BlogDetails'
 import RenderMdx from '../../../components/BlogScreens/RenderMdx'
+import Layout from '../../../components/bloglayout'
+
+
+
 
 export default function BlogPage({ params }) {
 
+   console.log(allBlogs)
+    console.log(params)
     const blog = allBlogs.find((blog) => blog._raw.flattenedPath === params.slug)
 
-    return <article>
+    return <Layout>
+    
+    <article>
         <div className='mb-8 text-center relative w-full h-[70vh] bg-black'>
             <div className='w-full z-10 flex flex-col items-center justify-center absolute top-1/2 left-1/2 
             -translate-x-1/2 -translate-y-1/2'>
@@ -22,7 +30,6 @@ export default function BlogPage({ params }) {
             <div className='absolute top-0 left-0 right-0 bottom-0 h-full bg-dark/50'>
                 <Image
                 src={blog.image.filePath.replace("../public", "")}
-                placeholder="blur"
                 blurDataURL={blog.image.blurhasDataUrl}
                 alt={blog.title}
                 width={blog.image.width}
@@ -62,4 +69,5 @@ export default function BlogPage({ params }) {
             <RenderMdx blog={blog} />
         </div>
     </article>
+    </Layout>
 }

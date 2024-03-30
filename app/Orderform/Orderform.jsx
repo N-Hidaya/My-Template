@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
-import Privacypol from '../components/Privacypol'
+import Privacypol from '../../components/Privacypol'
 import Link from 'next/link';
-import { sendOrderForm } from '../lib/api';
+import { sendOrderForm } from '../../lib/api';
 import { Alert, Typography } from '@material-tailwind/react';
 import { useRouter } from 'next/router';
 

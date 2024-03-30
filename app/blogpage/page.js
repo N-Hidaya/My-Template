@@ -1,12 +1,11 @@
-import Layout from '../components/bloglayout';
+import Layout from '../../components/bloglayout';
 import {allBlogs} from "contentlayer/generated";
-import BlogDesign from '../components/BlogDesign';
-import FeaturedPosts from '../components/FeaturedPosts';
-import RecentPosts from '../components/RecentPosts';
+import BlogDesign from '../../components/BlogDesign';
+import FeaturedPosts from '../../components/FeaturedPosts';
+import RecentPosts from '../../components/RecentPosts';
 
 
 export default function Blog() {
-  console.log(allBlogs);
     return (
         <Layout>
         <main className='flex flex-col items-center justify-center'>
