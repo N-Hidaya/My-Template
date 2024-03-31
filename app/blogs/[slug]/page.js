@@ -1,24 +1,29 @@
-'use client'
 
 import {allBlogs} from 'contentlayer/generated'
 import Tag from "../../../components/elements/Tag"
 import Image from 'next/image'
 import BlogDetails from '../../../components/BlogScreens/BlogDetails'
 import RenderMdx from '../../../components/BlogScreens/RenderMdx'
+import { slug } from 'github-slugger'
 
 
+
+export async function generateStaticParams() {
+    return allBlogs.map((blog) => ({slug:  blog._raw.flattenedPath}))
+
+}
 
 export default function BlogPage({ params }) {
 
-   console.log(allBlogs)
-    console.log(params)
+   //console.log(allBlogs)
+   // console.log(params)
     const blog = allBlogs.find((blog) => blog._raw.flattenedPath === params.slug)
 
     return  <article className='pb-40'>
         <div className='mb-8 text-center relative w-full h-[70vh] bg-black'>
             <div className='w-full z-10 flex flex-col items-center justify-center absolute top-1/2 left-1/2 
             -translate-x-1/2 -translate-y-1/2'>
-                <Tag name={blog.tags[0]} link={`/categories/${blog.tags[0]}`}
+                <Tag name={slug(blog.tags[0])} link={`/categories/${slug(blog.tags[0])}`}
                 classname="px-6 text-sm py-2 "/>
                 <h1 className='inline-block mt-6 font-semibold capitalize text-white text-5xl leading-normal 
                 relative w-5/6'>
