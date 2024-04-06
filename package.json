@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@dotlottie/react-player": "1.6.19",
     "@material-tailwind/react": "^2.0.8",
     "@paypal/react-paypal-js": "^8.1.1",
     "contentlayer": "^0.3.4",

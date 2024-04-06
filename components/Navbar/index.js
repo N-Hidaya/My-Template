@@ -88,7 +88,7 @@ const Navbar = () => {
                                 <Link href='/#about'>
                                     <li onClick={() => setNav(false)} className="py-4 text-sm">About</li>
                                 </Link>
-                                <Link href='/Blog'>
+                                <Link href='/blogpage'>
                                     <li onClick={() => setNav(false)} className="py-4 text-sm">Blog</li>
                                 </Link>
                                 <Link href='/#services'>
