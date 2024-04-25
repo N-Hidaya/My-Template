@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 import {BsPatchCheckFill} from 'react-icons/bs'
 import ProjectItem from './ProjectItem'
-import donateImg from '../public/assets/blog/donationcover.jpeg'
 
 //import h4uvid from '../public/assets/services/hanguk4ummah.mp4'
 

@@ -38,7 +38,8 @@ export default function BlogPage({ params }) {
                 width={blog.image.width}
                 height={blog.image.height}
                 className="aspect-square w-full h-full object-cover object-center group-hover:scale-105 transition-all 
-                ease duration-300"/>
+                ease duration-300 opacity-60"/>
+                <span className='text-sm font-semibold text-[#d45a93] '>{blog.imageAttribute}</span>
 
             </div>
         </div>

@@ -3,7 +3,6 @@ import {allBlogs} from "@/.contentlayer/generated"
 import GithubSlugger, { slug } from 'github-slugger'
 import Categories from "../../../components/BlogScreens/Categories";
 import ScreenThree from "../../../components/BlogScreens/ScreenThree";
-import ScreenTwo from "../../../components/BlogScreens/ScreenTwo";
 
 const slugger = new GithubSlugger();
 
@@ -54,10 +53,10 @@ const CategoryPage = ({params}) => {
         </div>
         <Categories categories={allCategories} currentSlug={params.slug} />
 
-        <div className="grid grid-cols-3 grid-rows-2 gap-16 mt-24 px-32">
+        <div className="grid grid-cols-3 grid-rows-2 gap-16 mt-24 px-32 pb-20">
             {
                 blogs.map((blog, index) => <article key={index} className="col-span-1 row-span-1 relative">
-                    <ScreenTwo blog={blog} />
+                    <ScreenThree blog={blog} />
                 </article>)
             }
         </div>
