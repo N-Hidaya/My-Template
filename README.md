@@ -13,3 +13,4 @@ Working on a blog site which includes components such as:
 
 CSS Library: TailwindCSS
 Framework: ReactJS, NextJS
+# My-Web-Template
