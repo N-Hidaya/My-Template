@@ -1,6 +1,8 @@
 require("dotenv").config();
 
-module.exports = {
+const { withContentlayer } = require("next-contentlayer");
+
+module.exports = withContentlayer({
   reactStrictMode: true,
   images: {
     domains: ["openweathermap.org"],
@@ -10,5 +12,4 @@ module.exports = {
     NEXT_API_KEY: process.env.NEXT_API_KEY,
     REACT_APP_PAYPAL_CLIENTID: process.env.REACT_APP_PAYPAL_CLIENTID
   },
-
-};
+});
