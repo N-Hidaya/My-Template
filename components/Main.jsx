@@ -13,31 +13,28 @@ const Main = () => {
                     Let's produce our ideas together
                     </p>
                     <h1 className="py-4 text-[#402D29]">
-                        Hi, I'm <span className="text-white drop-shadow-md">Daya</span>
+                        Hi, I'm <span className="text-white drop-shadow-md">Your Name</span>
                     </h1>
                     <h1 className="py-2 text-[#402D29] drop-shadow-md">
                         A Website and Mobile Developer 
                     </h1>
                     <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-                    Welcome to my portfolio website! I'm an accomplished website and mobile developer, 
-                    dedicated to crafting outstanding digital experiences that leave a lasting impact. 
-                    With a keen focus on responsive design, I specialize in developing dynamic websites and 
-                    mobile applications using cutting-edge frameworks, including NextJS, ReactJS, and Flutter.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-                    To stay at the forefront of industry trends, I'm continually expanding my skill set. 
-                    Currently, I'm exploring the realm of SEO content writing, allowing me to optimize digital content
-                     for maximum visibility and engagement. Additionally, I'm honing my expertise in content management 
-                     systems like WordPress and Wix, 
-                    empowering me to deliver user-friendly and feature-rich platforms.
                     </p>
                     <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                             <Link href='/#contact' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <AiOutlineMail color='#68333c' />
                             </Link>
-                            <Link href='https://github.com/N-Hidaya' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <Link href='https://github.com' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <FaGithub color='#68333c' />
                             </Link>
-                            <Link href='https://www.instagram.com/ai__daya/' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <Link href='https://www.instagram.com' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <FaInstagram color='#68333c'/>
                             </Link>
                             <Link href='/#contact' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">

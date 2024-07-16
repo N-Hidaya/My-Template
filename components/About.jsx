@@ -7,13 +7,15 @@ const About = () => {
             <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
                 <div className="col-span-2">
                     <p className="uppercase text-xl tracking-widest text-white drop-shadow-lg">About</p>
-                    <h2 className="py-4 text-[#402D29]">Who is Daya?</h2>
+                    <h2 className="py-4 text-[#402D29]">Who is YourCompany?</h2>
                     <p className="py-2 text-gray-600">
-                    Hey there, curious minds! 🎓✨ Daya has officially tossed her graduation cap and dived into the exciting world beyond the textbooks.
-                    Post-graduation, she's taken her talents to platforms like Upwork and Fiverr, where she's weaving her freelance magic. 🪄✍️ But that's not all – right here on this blogsite, Daya's crafting her own passion-fueled projects.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                    commodo consequat. 
                     </p>
                     <p className="py-2 text-gray-600">
-                    If you're into captivating reads, head over to the <Link href='https://www.ai-daya.com/Blog' className="underline font-bold">Blog</Link> section. And tech enthusiasts, we've got your back too! Swing by the <Link href='https://www.ai-daya.com/#services' className="underline font-bold">Services</Link> section for Daya's expertise in web and mobile development.
+                    If you're into captivating reads, head over to the <Link href='/Blog' className="underline font-bold">Blog</Link> section. And tech enthusiasts, we've got your back too! Swing by the <Link href='/#services' className="underline font-bold">Services</Link> section.
                     So, whether you're after inspiration or tech solutions, this is your go-to spot. Stick around for the journey ahead! 🚀🌟 #DayasAdventures"
                     </p>
                 </div>

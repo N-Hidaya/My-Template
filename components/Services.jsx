@@ -15,7 +15,7 @@ const Services = () => {
             <div className='flex flex-col xl:flex-row justify-evenly '>
                 
 
-                <Link className='flex flex-col md:flex-row md:max-w-xl  w-full h-auto shadow-xl shadow-white rounded-xl lg:p-4 bg-gradient-to-r from-[#68333c] to-[#eba9a9] hover:scale-105 ease-in duration-300' href='https://www.fiverr.com/s2/b76a4f5ba2'>
+                <Link className='flex flex-col md:flex-row md:max-w-xl  w-full h-auto shadow-xl shadow-white rounded-xl lg:p-4 bg-gradient-to-r from-[#68333c] to-[#eba9a9] hover:scale-105 ease-in duration-300' href='https://www.fiverr.com/'>
                 
                     <img className="object-cover w-full rounded-t-lg h-50 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/gigs/mobile1.png" alt="Flutter Mobile Applications Development" />
 

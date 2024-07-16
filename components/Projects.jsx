@@ -1,7 +1,6 @@
 import React from 'react'
-import ytomp3 from '../public/assets/projects/portfolio3.png'
 import ProjectItem from './ProjectItem'
-import ko4ummah from '../public/assets/projects/portfolio4.png'
+import portfolio from '../public/assets/projects/portfolio3.png'
 import h4u from '../public/assets/projects/h4u.jpg'
 
 
@@ -12,8 +11,8 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase text-white drop-shadow-lg'>Projects</p>
         <h2 className='py-4 text-[#402D29]'>What I've Created</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-            <ProjectItem title='Hanguk4Ummah Web Version' bgimg={ko4ummah} pjurl='https://master--cheerful-cendol-ed58ed.netlify.app/' type='Gatsby Project'/>
-            <ProjectItem title='Hanguk4Ummah Mobile App' bgimg={h4u} pjurl='/Hanguk4Ummah' type='Flutter Project'/>
+            <ProjectItem title='Some Website' bgimg={portfolio} pjurl='https://appwrite.io/docs/products/databases/queries' type='Some Project'/>
+            <ProjectItem title='Mobile App' bgimg={h4u} pjurl='/ProjectURL' type='Flutter Project'/>
 
 
         </div>

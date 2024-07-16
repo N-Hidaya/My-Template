@@ -93,7 +93,7 @@ const Contact = () => {
                         <img className='rounded-xl hover:scale-105 ease-in duration-300' src='https://i.pinimg.com/564x/5f/d5/0e/5fd50e6cfee48eba2c0220731b6e9f1c.jpg' alt='/' />
                     </div>
                     <div>
-                        <h2 className='py-2 text-white drop-shadow-lg'>Daya</h2>
+                        <h2 className='py-2 text-white drop-shadow-lg'>Your Name</h2>
                         <p className='font-bold drop-shadow-lg shadow-white'>Front-End Developer</p>
                         <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's discuss.</p>
     
@@ -105,10 +105,10 @@ const Contact = () => {
                             <Link href='/#contact' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <AiOutlineMail color='#68333c' />
                             </Link>
-                            <Link href='https://github.com/N-Hidaya' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <Link href='#' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <FaGithub color='#68333c' />
                             </Link>
-                            <Link href='https://www.instagram.com/ai__daya/' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <Link href='https://www.instagram.com' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <FaInstagram color='#68333c'/>
                             </Link>
                             <Link href='/#contact' className="rounded-full shadow-lg shadow-gray-400 bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300">

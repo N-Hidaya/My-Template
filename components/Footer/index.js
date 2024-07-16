@@ -14,7 +14,7 @@ const Footer = () => {
                 </li>
               </ul>
             </nav>
-            <p className="text-white items-center">&copy; 2023 AI Daya. All rights reserved.</p>
+            <p className="text-white items-center">&copy; 2023 YourCompany. All rights reserved.</p>
     </footer>
   );
             

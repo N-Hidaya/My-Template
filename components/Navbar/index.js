@@ -111,10 +111,10 @@ const Navbar = () => {
                                 <Link href='/#contact' className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                                     <AiOutlineMail color='#68333c' />
                                 </Link>
-                                <Link href='https://github.com/N-Hidaya' className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                <Link href='#' className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                                     <FaGithub color='#68333c' />
                                 </Link>
-                                <Link href='https://www.instagram.com/ai__daya/' className="rounded-full shadow-lg shadow-gray-400  p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                <Link href='#' className="rounded-full shadow-lg shadow-gray-400  p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                                     <FaInstagram color='#68333c'/>
                                 </Link>
                                 <Link href='/#contact' className="rounded-full shadow-lg shadow-gray-400  p-6 cursor-pointer hover:scale-110 ease-in duration-300">
