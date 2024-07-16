@@ -1,0 +1,35 @@
+{
+  "title": "Blog One Title",
+  "publishedAt": "2023-03-03T00:00:00.000Z",
+  "updatedAt": "2023-03-03T00:00:00.000Z",
+  "description": "Testing",
+  "image": {
+    "filePath": "../public/assets/blog/ai_daya.jpg",
+    "relativeFilePath": "../../public/assets/blog/ai_daya.jpg",
+    "format": "png",
+    "height": 929,
+    "width": 768,
+    "aspectRatio": 0.8266953713670614,
+    "blurhashDataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAgVBMVEUoIyaIaHh/a3FuX3AeFhmMUmAsMjVkS1ZFND93aXahYGxlYnCIdnyJYGPrv7OhkaHAk4dgO0XCf45PQVhfVFqfdol7gIxxU2eSZGtjdYJkcoFRVVx6gpKcpK7i4+mhgoWKmKB+mqPI19/x09CRrLrTpbqvVlrtpaeaSFyKho7WrqbHQF0hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAR0lEQVR4nAXBAwLAMAAEsOtqzrbx/wcuQR85WciUQzvdRJ4brMtIbZlpHNs0tBWRiPcwdzRXeL/E21oxxCExSoDhvK+HCOAHk3EEKJKlhn8AAAAASUVORK5CYII="
+  },
+  "isPublished": true,
+  "author": "Daya",
+  "tags": [
+    "productivity",
+    "css\r"
+  ],
+  "body": {
+    "raw": "\r\n#start blog\r\n##writing\r\nTesting",
+    "html": "<p>#start blog\r\n##writing\r\nTesting</p>"
+  },
+  "_id": "blog-one/index.mdx",
+  "_raw": {
+    "sourceFilePath": "blog-one/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "blog-one",
+    "contentType": "mdx",
+    "flattenedPath": "blog-one"
+  },
+  "type": "Blog",
+  "url": "/blogs/blog-one"
+}

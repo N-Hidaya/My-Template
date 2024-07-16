@@ -1,0 +1,34 @@
+{
+  "title": "I decided to use Flutter for Web and Mobile Development",
+  "publishedAt": "2024-01-11T00:00:00.000Z",
+  "updatedAt": "2024-01-11T00:00:00.000Z",
+  "description": "I realized how simple and manageable it is...",
+  "image": {
+    "filePath": "../public/assets/blog/taekwondo.jpeg",
+    "relativeFilePath": "../../public/assets/blog/taekwondo.jpeg",
+    "format": "jpeg",
+    "height": 1200,
+    "width": 675,
+    "aspectRatio": 0.5625,
+    "blurhashDataUrl": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAdEAACAgEFAAAAAAAAAAAAAAABAgAFAwQSITGx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AqNhWprrLAS7KEG9lHTEHj0xEQtf/2Q=="
+  },
+  "isPublished": true,
+  "author": "Daya",
+  "tags": [
+    "Flutter\r"
+  ],
+  "body": {
+    "raw": "\r\nAfter 1 year of learning and working on the Flutter framework, I realized how simple and manageable it is as compared to ReactJS/React Native. I code faster, and complete my projects faster using Flutter. Until now, I've only deployed Flutter applications to mobile platforms. This time, I will try to develop web applications using Flutter and deploy it for the world to see.\r\n\r\n",
+    "html": "<p>After 1 year of learning and working on the Flutter framework, I realized how simple and manageable it is as compared to ReactJS/React Native. I code faster, and complete my projects faster using Flutter. Until now, I've only deployed Flutter applications to mobile platforms. This time, I will try to develop web applications using Flutter and deploy it for the world to see.</p>"
+  },
+  "_id": "decision-making/decision-making.mdx",
+  "_raw": {
+    "sourceFilePath": "decision-making/decision-making.mdx",
+    "sourceFileName": "decision-making.mdx",
+    "sourceFileDir": "decision-making",
+    "contentType": "mdx",
+    "flattenedPath": "decision-making/decision-making"
+  },
+  "type": "Blog",
+  "url": "/blogs/decision-making/decision-making"
+}
