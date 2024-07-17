@@ -1,5 +1,6 @@
 import nodemailer from 'nodemailer'
 
+//Key in your env EMAIL and PASS in Next deployment page env settings. Or any other hosting parties.
 const email = process.env.EMAIL;
 const pwd = process.env.EMAIL_PASS;
 
