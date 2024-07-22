@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
 import portfolio from '../public/assets/projects/portfolio3.png'
-import h4u from '../public/assets/projects/h4u.jpg'
+import project from '../public/assets/projects/flutterapp.png'
 
 
 const Projects = () => {
@@ -12,7 +12,7 @@ const Projects = () => {
         <h2 className='py-4 text-[#402D29]'>What I've Created</h2>
         <div className='grid md:grid-cols-2 gap-8'>
             <ProjectItem title='Some Website' bgimg={portfolio} pjurl='https://appwrite.io/docs/products/databases/queries' type='Some Project'/>
-            <ProjectItem title='Mobile App' bgimg={h4u} pjurl='/ProjectURL' type='Flutter Project'/>
+            <ProjectItem title='Mobile App' bgimg={project} pjurl='/ProjectURL' type='Flutter Project'/>
 
 
         </div>

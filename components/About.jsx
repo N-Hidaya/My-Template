@@ -16,7 +16,7 @@ const About = () => {
                     </p>
                     <p className="py-2 text-gray-600">
                     If you're into captivating reads, head over to the <Link href='/Blog' className="underline font-bold">Blog</Link> section. And tech enthusiasts, we've got your back too! Swing by the <Link href='/#services' className="underline font-bold">Services</Link> section.
-                    So, whether you're after inspiration or tech solutions, this is your go-to spot. Stick around for the journey ahead! 🚀🌟 #DayasAdventures"
+                    So, whether you're after inspiration or tech solutions, this is your go-to spot. Stick around for the journey ahead! 🚀🌟 
                     </p>
                 </div>
                 <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 bg-white rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
